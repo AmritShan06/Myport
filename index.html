@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortFolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="/favicon.ico">
+    
+    
+</head>
+<body>
+    
+    <nav>
+        <div class="myname">
+            <a href="index.html">AMRITSHAN</a>
+        </div>
+        <div class="icon">
+            
+            <ul>
+                
+                <button><a href="index.html">Home</a></button> 
+                <button><a href="#about">About</a></button>
+                <button><a href="#skills">Skills</a></button>
+                <button><a href="#contact">Contact Me</a></button>
+            </ul>
+        </div>
+    </nav>
+    <div class="home">
+        <img src="https://i.imghippo.com/files/rR1618VCA.jpg" class="image">
+        <div class="rightsection">
+            <h3>Hello,It`s me</h3>
+            <h1 >Amritanshu Shandilya</h1 >
+            <h3>And I`m a Frontend Developer</h3>
+            <h4>I am an engineering student pursuing a degree in Electronics and Communication Engineering (ECE). Currently, I am learning the MERN stack, which includes MongoDB, Express.js, React, and Node.js. This knowledge is empowering me to develop dynamic web applications and enhancing my skills for a promising career in technology.</h4>
+            <div class="socialmedia">
+                <a class="icon" href="https://www.instagram.com/amrit._.shan._.06/profilecard/?igsh=Y3FhNWtneDkwNHR1"><img src="https://psfonttk.com/wp-content/uploads/2020/09/Instagram-Logo-Transparent-1024x987.png" height="30px" width="30px" ></a>
+                <a class="icon" href="https://www.linkedin.com/in/amritanshu-shandilya/"><img src="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png"  height="30px" width="30px"></a>
+                <a class="icon" href="https://github.com/AmritShan06"  ><img src="https://static-00.iconduck.com/assets.00/github-emoji-256x252-5rckwyt5.png"  height="30px" width="30px"></a>
+                <a class="icon" href=" https://wa.me/qr/M6FEQ2CDPLNYA1"  ><img src="https://1.bp.blogspot.com/-PM8_Rig8V0M/XxFkv-2f3hI/AAAAAAAACSU/vB1BqbuhFCMyJ8OGCVstFiMLFmavCLqrwCPcBGAYYCw/s1600/whatsapp-logo-1.png"  height="30px" width="30px"></a>
+
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <!-- <hr></hr> -->
+    <div id="about">
+        <div class="photo">
+            <h1 class="none">About Me</h1>
+            <!-- <h3>A "read more - read less"
+                button using JavaScript and CSS
+                display block property.
+            </h3> -->
+            <div class="mybox">
+                <div1 >
+                    Hello! I'm a passionate web developer currently exploring the world of software development. 
+    I have a solid foundation in front-end technologies like HTML, CSS, and JavaScript, 
+    and I'm diving into the MERN stack (MongoDB, Express.js, React, and Node.js) to build dynamic 
+    and scalable web applications. Alongside, I'm honing my problem-solving skills by practicing 
+    Data Structures and Algorithms.
+
+                    <span class="mybox1" id="mybox1id">
+                        I enjoy turning ideas into reality using code and constantly strive to learn new technologies to stay updated in the fast-evolving tech world. 
+                        I am eager to collaborate on projects where I can apply my skills and grow as a developer.
+                    
+                    </span>
+                </div1>
+                <button id="mybuttonid" 
+                        onclick="changeReadMore()">
+                    Read More
+                </button>
+            </div>
+            
+        </div>
+        <div class="rightsec1">
+            <img src="https://i.imghippo.com/files/rR1618VCA.jpg" id="image1">
+
+        </div>
+
+    </div>
+    <!-- <hr></hr> -->
+     <div id="skills">
+    <div id="text">
+        SKILLS
+    </div> 
+    
+    <section id="skills-section">
+        
+        
+        <div class="skills-container">
+            <div class="skill-card">
+                <h2>DSA</h2>
+                <p>
+                    I am currently engaged in the study of Data Structures and Algorithms (DSA) utilizing the C++ 
+                    programming language as my medium of instruction. This endeavor involves a comprehensive 
+                    exploration of various data organization techniques and algorithmic strategies, which are 
+                    essential for efficient problem-solving and computational performance in computer science.
+                </p>
+            </div>
+            <div class="skill-card">
+                <h2>Frontend Development</h2>
+                <p>
+                    I possess a high level of proficiency in front-end development, encompassing a thorough 
+                    command of technologies such as HTML, CSS, and JavaScript (JS). My expertise enables me to create 
+                    visually appealing and highly interactive user interfaces, ensuring an optimal user experience 
+                    through modern design principles and responsive web design techniques.
+                </p>
+            </div>
+            <div class="skill-card">
+                <h2>MERN Stack</h2>
+                <p>
+                    I am currently undertaking a comprehensive study of the MERN stack, which encompasses the 
+                    integration of MongoDB, Express.js, React.js, and Node.js. This robust technology stack facilitates 
+                    the development of dynamic and scalable web applications by employing a JavaScript-centric approach 
+                    across both the client and server sides.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+   
+    <section id="contact">
+        <h2 >Contact Me!</h2>
+        <form action="#">
+            <div class="inputbox">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <div class="error-txt">Full Name can`t be blank </div>
+                </div>
+                <div class="input-field field">
+                    <input type="alphanumeric" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                    <div class="error-txt email">Email Id cant be blank </div>
+                </div>
+            </div>
+            <div class="inputbox">
+                <div class="input-field field">
+                    <input type="number" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                    <div class="error-txt">Phone Number cant be blank </div>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                    <div class="error-txt">Subject cant be blank </div>
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your message" class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Message cant be blank </div>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+
+   
+
+
+
+
+
+  
+
+
+    
+
+    
+    <script src="port.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
