@@ -1,4 +1,4 @@
-*{
+{
     margin:0px;
     padding:0px;
     color:white;
@@ -176,7 +176,7 @@ button {
 }
 .skill-card h2 {
     font-size: 1.8rem;
-    text-align: center;
+    text-align:center;
     color: #6f71f0;
     margin-bottom: 15px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
@@ -198,16 +198,17 @@ button {
     color:rgb(6, 69, 227);
     text-decoration: underline  rgba(11, 11, 45, 0.144);
  }
+ 
  /*skills section*/
 
 
 
 
-h2{
+.cont{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(6, 227, 222);
     font-size: 50px;
-    margin-left: 43%;
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 20px;
 }
@@ -292,17 +293,17 @@ justify-content: space-between;
 
  .inputbox{
     display: flex; 
-    margin-left: 25%; 
+    margin-left: 23%; 
     
  }
 
  .textarea-field{
-    margin-left:25%;
-    margin-right: 16%;
+    margin-left:23%;
+    margin-right: 17.5%;
 }
 
  button{
-    margin-left: 47%;
+    margin-left: 45%;
  }
  
 
